@@ -1,4 +1,5 @@
 .vagrant/*
+.docker/*
 b/*
 .DS_Store
 *.qm

@@ -2,6 +2,15 @@ FROM ubuntu:xenial
 MAINTAINER Tobias Doerffel <tobias.doerffel@gmail.com>
 
 RUN \
+    touch /etc/apt/apt.conf && \
+    echo "Acquire::http::proxy \"http://10.73.17.21:8080/\";" >> /etc/apt/apt.conf && \
+    echo "Acquire::https::proxy \"http://10.73.17.21:8080/\";" >> /etc/apt/apt.conf && \
+    echo "Acquire::ftp::proxy \"http://10.73.17.21:8080/\";" >> /etc/apt/apt.conf && \
+    echo "Acquire::socks::proxy \"http://10.73.17.21:8080/\";" >> /etc/apt/apt.conf && \
+    echo "Acquire::::Proxy \"true\";" >> /etc/apt/apt.conf && \
+	echo "http_proxy=http://10.73.17.21:8080/" >> /etc/environment && \
+	echo "ftp_proxy=http://10.73.17.21:8080/" >> /etc/environment && \
+	echo "https_proxy=http://10.73.17.21:8080/" >> /etc/environment && \
 	apt-get update && \
 	apt-get install -y software-properties-common && \
 	add-apt-repository -y "deb http://ppa.launchpad.net/tobydox/mingw-w64/ubuntu xenial main" && \
