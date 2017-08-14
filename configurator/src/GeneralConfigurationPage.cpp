@@ -47,7 +47,7 @@ GeneralConfigurationPage::GeneralConfigurationPage() :
 
 	// retrieve list of builtin translations and populate language combobox
 	QStringList languages;
-	const auto qmFiles = QDir(":/resources/").entryList( QStringList("*.qm") );
+        const auto qmFiles = QDir(":/resources/").entryList( QStringList("ru.qm") );
 	for( const auto& qmFile : qmFiles )
 	{
 		QLocale loc( qmFile );

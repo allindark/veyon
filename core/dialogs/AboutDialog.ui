@@ -152,7 +152,7 @@
        <item row="3" column="0" colspan="2">
         <widget class="QLabel" name="label_8">
          <property name="text">
-          <string>Copyright © 2004-2017 Tobias Doerffel / Veyon Solutions</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;© MASCOM GROUP 2005—2017&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
@@ -166,7 +166,7 @@
        <item row="5" column="1">
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string notr="true">&lt;a href=&quot;http://github.com/veyon/veyon&quot;&gt;http://veyon.io&lt;/a&gt;</string>
+          <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.mascom.ru&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.mascom.ru&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -205,47 +205,6 @@
           <enum>QFrame::NoFrame</enum>
          </property>
          <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="tab_3">
-      <attribute name="icon">
-       <iconset resource="../core.qrc">
-        <normaloff>:/resources/locale.png</normaloff>:/resources/locale.png</iconset>
-      </attribute>
-      <attribute name="title">
-       <string>Translation</string>
-      </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <property name="spacing">
-        <number>6</number>
-       </property>
-       <property name="leftMargin">
-        <number>24</number>
-       </property>
-       <property name="topMargin">
-        <number>24</number>
-       </property>
-       <property name="rightMargin">
-        <number>24</number>
-       </property>
-       <property name="bottomMargin">
-        <number>24</number>
-       </property>
-       <item>
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>Current language not translated yet (or native English).
-
-If you're interested in translating Veyon into your local or another language or want to improve an existing translation, please contact a Veyon developer!</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-         </property>
-         <property name="wordWrap">
           <bool>true</bool>
          </property>
         </widget>

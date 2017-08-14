@@ -1,7 +1,10 @@
 .vagrant/*
+.build/*
 .docker/*
 b/*
 .DS_Store
 *.qm
 svg
 Makefile
+/build
+/*.user

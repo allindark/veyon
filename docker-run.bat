@@ -1,0 +1,1 @@
+docker run -v veyon:/veyon:rw veyon-build-32 /bin/sh /veyon/.travis/linux.cross.win32/script.sh
