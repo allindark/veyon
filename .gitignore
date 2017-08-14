@@ -1,5 +1,4 @@
 .vagrant/*
-.build/*
 .docker/*
 b/*
 .DS_Store
