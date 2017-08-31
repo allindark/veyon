@@ -11,7 +11,7 @@
 !define COMP_NAME "MASCOM GROUP Inc."
 !define WEB_SITE "http://www.mascom.ru"
 !define VERSION "@VERSION_MAJOR@.@VERSION_MINOR@.@VERSION_PATCH@.@VERSION_BUILD@"
-!define COPYRIGHT "© MASCOM GROUP 2005—2017"
+!define COPYRIGHT "© Tobias Doerffel 2004-2017"
 !define DESCRIPTION "Virtual Eye On Networks"
 !define LICENSE_TXT "@CMAKE_SOURCE_DIR@/COPYING"
 !define INSTALLER_NAME "veyon-${VERSION}-@MINGW_PLATFORM@-setup.exe"
